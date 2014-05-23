@@ -1,0 +1,862 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica,sans-serif;
+}
+
+/* website wrapper*/
+#page
+{
+	background-color: #FFFFFF; 
+	width: 100%;
+	overflow: hidden;
+}
+
+/* website content */
+#content
+{
+    padding: 20px;
+}
+
+#sidebar
+{
+	padding: 20px 20px 20px 0;
+}
+
+/* copyright and site footer links */
+#footer
+{
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 1.2em;
+	color: #A60711;
+	text-align: left;
+	border-top: 1px solid #E8E7E6;
+}
+
+#logo
+{
+	padding: 10px 20px;
+	font-size: 200%;
+}
+
+/* navigation bar */
+#mainmenu
+{
+	background-color: #171514;
+	position: fixed;
+    left: 0px;
+    right: 0px;
+}
+
+#mainmenu ul
+{
+	margin: 0 auto;  
+    width: 100%;  
+    list-style: none;
+    padding:6px 20px 5px 20px;
+}
+
+#mainmenu ul li
+{
+	 display: inline-block;
+}
+
+#mainmenu ul li a
+{  
+    display: block;
+    margin-right: 5px; 
+    margin-left: 5px; 
+    font-size: 15px;
+    line-height: 20px;  
+    text-align: center;
+	text-decoration: none;		
+    color: #C5C5C7;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+	color: #FFFFFF;
+	background-color: #000000; 
+	text-decoration: none;
+}
+/***********************************************************/
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #C9E0ED;
+}
+
+div.breadcrumbs
+{
+	font-size: 0.9em;
+	padding: 5px 20px;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+div.search-form
+{
+	padding: 10px;
+	margin: 10px 0;
+	background: #eee;
+}
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+	padding: 3px 8px;
+	background: #B7D6E7;
+	border-left: 5px solid #6FACCF;
+}
+
+.portlet-title
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #298dcd;
+}
+
+.portlet-content
+{
+	font-size:0.9em;
+	margin: 0 0 15px 0;
+	padding: 5px 8px;
+	background:#EFFDFF;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.portlet-content li
+{
+	padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+	padding-bottom: 2px;
+}
+
+.operations li a
+{
+	font: bold 12px Arial;
+	color: #0066A4;
+	display: block;
+	padding: 2px 0 2px 8px;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.operations li a:visited
+{
+	color: #0066A4;
+}
+
+.operations li a:hover
+{
+	background: #80CFFF;
+}
+
+/********* personalised css ****************/
+/* agent detail image */
+#agentDesc
+{
+	float: right;
+	margin-bottom: 40px;
+}
+
+/* side bar on homepage */
+#aside
+{
+	float: right;
+	width: 20%;
+	margin-top: 10px;
+	margin-right: 2%;
+}
+
+/* div for telephone enquiry details*/
+#enquiryHeader
+{
+	float: right;
+	text-align: right;
+	text-decoration: underline;
+	color: #A60711;
+}
+
+/* commercial locations on homepage */
+#footerImage
+{
+	margin-left: 4%;
+	margin-bottom: 10px;
+}
+
+/* property image display */
+#imageShow{
+
+	float: left;
+	width: 60%;
+	padding: 10px 10px 10px 10px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+/* last article on homepage */
+#lastArticle
+{
+	padding: 10px 10px 10px 10px;
+	width: 60%;
+	margin-top: 3px;
+}
+
+/* england property location div*/
+#locations{
+	width: 60%;
+	height: 480px;
+	background-color: #E8E7E6;
+	border-radius: 20px;
+	color: #A60711;
+	text-decoration: underline;
+	padding: 10px 10px 10px 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* scotland property location div*/
+#locations2{
+	width: 60%;
+	height: 350px;
+	background-color: #E8E7E6;
+	border-radius: 20px;
+	color: #A60711;
+	text-decoration: underline;
+	padding: 10px 10px 10px 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* wales property location div*/
+#locations3{
+	width: 60%;
+	height: 250px;
+	background-color: #E8E7E6;
+	border-radius: 20px;
+	color: #A60711;
+	text-decoration: underline;
+	padding: 10px 10px 10px 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* div for links to rent, buy, auction or investment */ 
+#mainSection
+{
+	width: 90%;
+	height: 200px;
+	margin-left: 6%;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+/* div for articles on homepage */
+#mainSection2
+{
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 20px;
+	padding: 10px 0px 0px 0px;
+	border-top: 1px solid #E8E7E6;
+	border-bottom: 1px solid #E8E7E6;
+}
+
+/* movehut logo in nav bar */
+#movehutLogo
+{
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/* responsive slide show images */
+#picture
+{
+	width: 100%;
+	height: 400px;
+}
+
+/* page navigator for search result */
+#scrollNavigator
+{
+	float: right;
+	margin-right: 140px;
+}
+
+/* form in searching news page */
+#searchForm2
+{
+	font-weight: bold;
+	text-align: center;
+}
+
+/* slider for property image slider show */
+#slider
+{
+	width: 600px;
+}
+
+/* property image display  */
+#slideshow
+{
+	width: 100%;
+	margin-top: 10px;
+	height: 400px; 
+	border-bottom: 2px solid black;	
+	border-right:  2px solid black;
+	border-left:  2px solid black;
+}
+
+/* social media side bar on homepage */
+#socialAside
+{
+	float: right;
+	width: 25%;
+	margin-top: 10px;
+	margin-right: 2%;
+}
+
+/* video container */
+#videoWrapper
+{
+	width: 90%;
+	height: 400px;
+	margin-left: 5%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px, 0px, 20px, 0px;
+	border-bottom: 1px solid #E8E7E6;
+}
+
+/* website title over slide show */
+#websiteTitle
+{
+	font-family: arial black;
+	font-size: 3.2em;
+	text-align: right;
+	color: #000000; 
+	position:relative;
+	width: 80%;
+	float: right;
+	top:-100px;
+	margin-bottom: 0px;
+}
+
+iframe
+{
+	margin-top: 10px;
+}
+
+/* picture of agent logo in result display */
+.agentLogo
+{
+	float: right;
+	margin-left: 2px;
+}
+
+/* normal articles on homepage */
+.article
+{
+	padding: 10px 10px 10px 10px;
+	width: 60%;
+	margin-top: 3px;
+	border-bottom: 1px solid #E8E7E6;
+}
+
+/*******************************************************/
+
+/* articles on property pages */
+.article2
+{
+	float: left;
+	padding: 10px 10px 10px 10px;
+	width: 47%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+/* side bars on property view page */
+.aside2
+{
+	float: right;
+	width: 20%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-right: 2%;
+	
+	
+}
+
+/* side bars on property locations page */
+.aside3
+{
+	float: right;
+	width: 30%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* movehut signature black text */
+.blackText
+{
+	font-family: arial black;
+	color: #000000;
+}
+
+/* buttons */
+.button{
+	width: 80%;
+	height: 30px;
+	padding: 5px 5px 5px 5px;
+	margin-top: 10px;
+	margin-left: 10%;
+	background-color: #A60711;
+	border-radius: 10px;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	
+		/*transitions*/
+    	-webkit-transition: background 0.5s ease;
+       	-moz-transition: background 0.5s ease;
+        -o-transition: background 0.5s ease;
+       	-ms-transition: background 0.5s ease;
+            transition: background 0.5s ease; 
+}
+
+.button:hover
+{
+	background-color: rgba(0,0,0,0.10); 
+	color: #A60711;
+}
+/**************************************************/
+
+/* property categories images */
+.category
+{
+	padding: 10px 10px 10px 10px;
+	border-bottom: 1px solid #E8E7E6;
+}
+
+/* property description */
+.desc
+{
+	width: 90%;
+}
+
+/* commercial location captions on homepage */
+.footerCaption
+{
+	font-weight: bold;
+	font-size: 1.1em;
+	text-decoration: underline;
+	color: #000000;
+	float: left;
+}
+
+/* footer links */
+.footerLinks
+{
+	color: #000000;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+/* commercial property location divs on homepage */
+.footerLocation
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-right: 30px;
+}
+
+/* word in website header*/
+.greyText
+{
+	font-family: arial black;
+	color: #C5C5C7;
+}
+
+/* section below page title*/
+.headerSection
+{
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 20px;
+	padding: 10px 0px 0px 0px;
+	border-top: 1px solid #E8E7E6;
+	border-bottom: 1px solid #E8E7E6;
+}
+
+/* text below page title*/
+.headerText
+{
+	padding: 10px 10px 10px 10px;
+	width: 55%;
+	margin-bottom: 7px;
+	font-size: 1.2em;
+}
+
+/* play and search icons */
+.icon
+{
+	float: right;
+}
+
+/* news articles */
+.innerAside
+{
+	width: 90%;
+	padding: 10px 10px 10px 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: right;
+}
+
+/* rent, buy, auction and investment buttons */
+.innerSection
+{
+	width: 20%;
+	height: 100px;
+	padding: 40px 10px 0px 10px;
+	margin: 20px 10px 0px 10px;
+	background-color: #A60711;
+	float: left;
+	border-radius: 25px;
+	font-size: 1.8em;
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF; 
+	
+		/*transitions*/
+    	-webkit-transition: background 0.5s ease;
+       	-moz-transition: background 0.5s ease;
+        -o-transition: background 0.5s ease;
+       	-ms-transition: background 0.5s ease;
+            transition: background 0.5s ease; 
+}
+
+/* rent, buy, auction and investment animated buttons */
+.innerSection2
+{
+	width: 20%;
+	height: 100px;
+	padding: 40px 10px 0px 10px;
+	margin: 0px 10px 0px 10px;
+	background-color: rgba(0,0,0,0.10); 
+	float: left;
+	border-radius: 25px;
+	font-size: 2.0em;
+	font-weight: bold;
+	color: #A60711;
+		
+		/*transitions*/
+    	-webkit-transition: background 0.5s ease;
+       	-moz-transition: background 0.5s ease;
+        -o-transition: background 0.5s ease;
+       	-ms-transition: background 0.5s ease;
+            transition: background 0.5s ease; 
+}
+
+/*******************************************************/
+
+/* pseudo links */
+.links
+{
+	text-decoration: underline;
+	color: #A60711;
+}
+
+/* links in property location divs*/
+.locationLinks
+{
+	width: 25%;
+	float: left;
+	text-decoration: underline;
+}
+
+/* mainSection layout */
+.mainSection3
+{
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 20px;
+	padding: 10px 0px 0px 0px;
+}
+
+/* news sections */
+.newsArticle
+{
+	width: 55%;
+	padding: 10px 10px 10px 10px;
+	margin-right: 20px;
+	border-bottom: 1px solid #E8E7E6;
+}
+
+/* asides on news page */
+.newsAside
+{
+	float: right;
+	width: 35%;
+	margin-left: 20px;
+}
+
+/* pictures in news section */
+.newsPic
+{
+	width: 400px;
+	height: 200px;
+}
+
+/* headers of webpages */
+.pageTitle
+{
+	font-size: 2.0em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+/* slide show effect on hover */
+.pictureHover
+{
+	opacity:0.85;
+	filter:alpha(opacity=85); 
+}
+
+/* images of property in search result*/
+.propertyImage
+{
+	float: left;
+	width: 200px;
+	height: 150px;
+	margin-right: 30px;
+	margin-bottom: 100px;
+	border: 1px black solid;
+}
+
+/* images of property in search result, grid format*/
+.propertyImage2
+{
+	float: left;
+	width: 200px;
+	height: 150px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	border: 1px black solid;
+}
+
+/* word in website header*/
+.redText
+{
+	font-family: arial black;
+	color: #A60711;
+}
+
+/* div for result display*/
+.result
+{
+	padding: 10px 10px 10px 10px;
+	width: 96%;
+	margin-bottom: 7px;
+	border-bottom: 1px solid #E8E7E6;
+	height: 300px;
+}
+
+/* div for result grid display*/
+.resultGrid
+{
+	float: left;
+	padding: 10px 10px 10px 20px;
+	width: 41%;
+	margin: 0px 20px 7px 10px;
+	border-bottom: 1px solid #E8E7E6;
+	height: 300px;
+}
+
+/* refine search bar */
+.searchBar
+{
+	width: 25%;
+	background-color: #E8E7E6;
+	border-radius: 20px;
+	padding: 15px 15px 15px 15px;
+	float:left;
+	margin-top: 80px;
+}
+
+/* property enquiry bar */
+.searchBar2
+{
+	width: 25%;
+	background-color: #E8E7E6;
+	border-radius: 20px;
+	padding: 15px 15px 15px 15px;
+	float:right;
+	margin-bottom: 20px;
+	
+}
+
+/* forms in search and enquiry bar */
+.searchForm
+{
+	font-weight: bold;
+	text-align: right;
+}
+
+/* search view customise bar options*/
+.searchOptions
+{
+	float: left;
+	text-decoration: underline;
+	margin-right: 25px;
+}
+
+/* result display section */
+.searchResults
+{
+	float: right;
+	width: 70%;
+	margin-bottom: 20px;
+}
+
+/* search view customise bar */
+.searchViewOptions
+{
+	width: 70%;
+	height: 30px;
+	float: right;
+	padding: 2px 2px 2px 2px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #A60711;
+	text-align: right;
+	font-weight: bold;
+	color: #E8E7E6;
+}
+
+/* sections containing location links*/
+.section
+{
+	width: 100%;
+	border-bottom: 1px solid #E8E7E6;
+}
+
+/* images for slide show navigation */
+.slideImage
+{
+	width: 150px;
+	height: 100px;
+	margin-right: 30px;
+	margin-top: 20px;
+	border: 1px solid black;
+}
+
+/* facebook and twitter logo at footer */
+.socialLogo
+{
+	float: right;
+	margin: 0px 10px 0px 2px;
+}
+
+/* innersection titles */
+.title
+{
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+/* article and property titles */
+.titles
+{
+	font-weight: bold;
+	font-size: 1.1em;
+	text-decoration: underline;
+	color: #000000;
+}
+
+

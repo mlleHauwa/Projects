@@ -1,0 +1,380 @@
+2014/05/14 12:56:18 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\xampp\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 C:\xampp\framework\web\helpers\CHtml.php(158): renderAttributes()
+#1 C:\xampp\framework\web\helpers\CHtml.php(442): tag()
+#2 C:\xampp\htdocs\project\protected\views\site\contact.php(22): image()
+#3 C:\xampp\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\framework\web\CController.php(869): SiteController->renderFile()
+#6 C:\xampp\framework\web\CController.php(782): SiteController->renderPartial()
+#7 C:\xampp\htdocs\project\protected\controllers\SiteController.php(72): SiteController->render()
+#8 C:\xampp\framework\web\actions\CInlineAction.php(49): SiteController->actionContact()
+#9 C:\xampp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\framework\web\CController.php(286): SiteController->runAction()
+#11 C:\xampp\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 C:\xampp\framework\web\CWebApplication.php(282): SiteController->run()
+#13 C:\xampp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\project\index.php(15): CWebApplication->run()
+REQUEST_URI=/project/index.php/site/contact
+2014/05/14 14:41:29 [error] [exception.CException] exception 'CException' with message 'Alias "ext.SimpleFadeSlideShow.SimpleFadeSlideShow" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.SimpleFadeS...', true)
+#1 C:\xampp\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.SimpleFadeS...', Array)
+#2 C:\xampp\framework\web\CBaseController.php(172): CBaseController->createWidget('ext.SimpleFadeS...', Array)
+#3 C:\xampp\htdocs\project\protected\views\site\index.php(38): CBaseController->widget('ext.SimpleFadeS...', Array)
+#4 C:\xampp\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\project\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\framework\web\CWebApplication.php(282): CController->run('index')
+#14 C:\xampp\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#15 C:\xampp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\project\index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/project/index.php/site/index
+HTTP_REFERER=http://localhost/project/index.php/site/page?view=about
+---
+2014/05/15 13:56:42 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\xampp\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 C:\xampp\framework\web\helpers\CHtml.php(158): renderAttributes()
+#1 C:\xampp\framework\web\helpers\CHtml.php(442): tag()
+#2 C:\xampp\htdocs\project\protected\views\layouts\main.php(30): image()
+#3 C:\xampp\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#6 C:\xampp\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#7 C:\xampp\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#8 C:\xampp\framework\web\CBaseController.php(206): CContentDecorator->run()
+#9 C:\xampp\framework\web\CBaseController.php(300): SiteController->endWidget()
+#10 C:\xampp\htdocs\project\protected\views\layouts\column1.php(6): SiteController->endContent()
+#11 C:\xampp\framework\web\CBaseController.php(126): require()
+#12 C:\xampp\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#13 C:\xampp\framework\web\CController.php(784): SiteController->renderFile()
+#14 C:\xampp\htdocs\project\protected\controllers\SiteController.php(32): SiteController->render()
+#15 C:\xampp\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\framework\web\CController.php(286): SiteController->runAction()
+#18 C:\xampp\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#19 C:\xampp\framework\web\CWebApplication.php(282): SiteController->run()
+#20 C:\xampp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\project\index.php(15): CWebApplication->run()
+REQUEST_URI=/project/index.php
+2014/05/15 14:08:10 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\xampp\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 C:\xampp\framework\web\helpers\CHtml.php(158): renderAttributes()
+#1 C:\xampp\framework\web\helpers\CHtml.php(442): tag()
+#2 C:\xampp\htdocs\project\protected\views\layouts\main.php(28): image()
+#3 C:\xampp\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#6 C:\xampp\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#7 C:\xampp\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#8 C:\xampp\framework\web\CBaseController.php(206): CContentDecorator->run()
+#9 C:\xampp\framework\web\CBaseController.php(300): SiteController->endWidget()
+#10 C:\xampp\htdocs\project\protected\views\layouts\column1.php(6): SiteController->endContent()
+#11 C:\xampp\framework\web\CBaseController.php(126): require()
+#12 C:\xampp\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#13 C:\xampp\framework\web\CController.php(784): SiteController->renderFile()
+#14 C:\xampp\htdocs\project\protected\controllers\SiteController.php(32): SiteController->render()
+#15 C:\xampp\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\framework\web\CController.php(286): SiteController->runAction()
+#18 C:\xampp\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#19 C:\xampp\framework\web\CWebApplication.php(282): SiteController->run()
+#20 C:\xampp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\project\index.php(15): CWebApplication->run()
+REQUEST_URI=/project/index.php
+2014/05/15 14:09:22 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\xampp\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 C:\xampp\framework\web\helpers\CHtml.php(158): renderAttributes()
+#1 C:\xampp\framework\web\helpers\CHtml.php(442): tag()
+#2 C:\xampp\htdocs\project\protected\views\layouts\main.php(29): image()
+#3 C:\xampp\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#6 C:\xampp\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#7 C:\xampp\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#8 C:\xampp\framework\web\CBaseController.php(206): CContentDecorator->run()
+#9 C:\xampp\framework\web\CBaseController.php(300): SiteController->endWidget()
+#10 C:\xampp\htdocs\project\protected\views\layouts\column1.php(6): SiteController->endContent()
+#11 C:\xampp\framework\web\CBaseController.php(126): require()
+#12 C:\xampp\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#13 C:\xampp\framework\web\CController.php(784): SiteController->renderFile()
+#14 C:\xampp\htdocs\project\protected\controllers\SiteController.php(32): SiteController->render()
+#15 C:\xampp\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\framework\web\CController.php(286): SiteController->runAction()
+#18 C:\xampp\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#19 C:\xampp\framework\web\CWebApplication.php(282): SiteController->run()
+#20 C:\xampp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\project\index.php(15): CWebApplication->run()
+REQUEST_URI=/project/index.php
+2014/05/15 14:10:04 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\xampp\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 C:\xampp\framework\web\helpers\CHtml.php(158): renderAttributes()
+#1 C:\xampp\framework\web\helpers\CHtml.php(442): tag()
+#2 C:\xampp\htdocs\project\protected\views\layouts\main.php(32): image()
+#3 C:\xampp\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#6 C:\xampp\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#7 C:\xampp\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#8 C:\xampp\framework\web\CBaseController.php(206): CContentDecorator->run()
+#9 C:\xampp\framework\web\CBaseController.php(300): SiteController->endWidget()
+#10 C:\xampp\htdocs\project\protected\views\layouts\column1.php(6): SiteController->endContent()
+#11 C:\xampp\framework\web\CBaseController.php(126): require()
+#12 C:\xampp\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#13 C:\xampp\framework\web\CController.php(784): SiteController->renderFile()
+#14 C:\xampp\htdocs\project\protected\controllers\SiteController.php(32): SiteController->render()
+#15 C:\xampp\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\framework\web\CController.php(286): SiteController->runAction()
+#18 C:\xampp\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#19 C:\xampp\framework\web\CWebApplication.php(282): SiteController->run()
+#20 C:\xampp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\project\index.php(15): CWebApplication->run()
+REQUEST_URI=/project/index.php
+2014/05/15 14:11:23 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\xampp\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 C:\xampp\framework\web\helpers\CHtml.php(158): renderAttributes()
+#1 C:\xampp\framework\web\helpers\CHtml.php(442): tag()
+#2 C:\xampp\htdocs\project\protected\views\layouts\main.php(24): image()
+#3 C:\xampp\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#6 C:\xampp\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#7 C:\xampp\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#8 C:\xampp\framework\web\CBaseController.php(206): CContentDecorator->run()
+#9 C:\xampp\framework\web\CBaseController.php(300): SiteController->endWidget()
+#10 C:\xampp\htdocs\project\protected\views\layouts\column1.php(6): SiteController->endContent()
+#11 C:\xampp\framework\web\CBaseController.php(126): require()
+#12 C:\xampp\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#13 C:\xampp\framework\web\CController.php(784): SiteController->renderFile()
+#14 C:\xampp\htdocs\project\protected\controllers\SiteController.php(32): SiteController->render()
+#15 C:\xampp\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\framework\web\CController.php(286): SiteController->runAction()
+#18 C:\xampp\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#19 C:\xampp\framework\web\CWebApplication.php(282): SiteController->run()
+#20 C:\xampp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\project\index.php(15): CWebApplication->run()
+REQUEST_URI=/project/index.php
+2014/05/15 14:13:39 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\xampp\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 C:\xampp\framework\web\helpers\CHtml.php(158): renderAttributes()
+#1 C:\xampp\framework\web\helpers\CHtml.php(442): tag()
+#2 C:\xampp\htdocs\project\protected\views\layouts\main.php(3): image()
+#3 C:\xampp\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 C:\xampp\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#6 C:\xampp\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#7 C:\xampp\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#8 C:\xampp\framework\web\CBaseController.php(206): CContentDecorator->run()
+#9 C:\xampp\framework\web\CBaseController.php(300): SiteController->endWidget()
+#10 C:\xampp\htdocs\project\protected\views\layouts\column1.php(6): SiteController->endContent()
+#11 C:\xampp\framework\web\CBaseController.php(126): require()
+#12 C:\xampp\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#13 C:\xampp\framework\web\CController.php(784): SiteController->renderFile()
+#14 C:\xampp\htdocs\project\protected\controllers\SiteController.php(32): SiteController->render()
+#15 C:\xampp\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#16 C:\xampp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\xampp\framework\web\CController.php(286): SiteController->runAction()
+#18 C:\xampp\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#19 C:\xampp\framework\web\CWebApplication.php(282): SiteController->run()
+#20 C:\xampp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\project\index.php(15): CWebApplication->run()
+REQUEST_URI=/project/index.php
+2014/05/16 12:26:58 [error] [exception.CException] exception 'CException' with message 'Alias "ext.SimpleFadeSlideShow.SimpleFadeSlideShow" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.SimpleFadeS...', true)
+#1 C:\xampp\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.SimpleFadeS...', Array)
+#2 C:\xampp\framework\web\CBaseController.php(172): CBaseController->createWidget('ext.SimpleFadeS...', Array)
+#3 C:\xampp\htdocs\project\protected\views\site\index.php(176): CBaseController->widget('ext.SimpleFadeS...', Array)
+#4 C:\xampp\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\project\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\xampp\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 C:\xampp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\project\index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/project/index.php
+HTTP_REFERER=http://localhost/project/index.php/site/login
+---
+2014/05/16 12:30:15 [error] [exception.CException] exception 'CException' with message 'Alias "ext.SimpleFadeSlideShow.SimpleFadeSlideShow" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.SimpleFadeS...', true)
+#1 C:\xampp\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.SimpleFadeS...', Array)
+#2 C:\xampp\framework\web\CBaseController.php(172): CBaseController->createWidget('ext.SimpleFadeS...', Array)
+#3 C:\xampp\htdocs\project\protected\views\site\index.php(176): CBaseController->widget('ext.SimpleFadeS...', Array)
+#4 C:\xampp\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\project\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\xampp\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 C:\xampp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\project\index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/project/index.php
+HTTP_REFERER=http://localhost/project/index.php/site/login
+---
+2014/05/16 12:31:05 [error] [exception.CException] exception 'CException' with message 'Alias "ext.SimpleFadeSlideShow.SimpleFadeSlideShow" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.SimpleFadeS...', true)
+#1 C:\xampp\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.SimpleFadeS...', Array)
+#2 C:\xampp\framework\web\CBaseController.php(172): CBaseController->createWidget('ext.SimpleFadeS...', Array)
+#3 C:\xampp\htdocs\project\protected\views\site\index.php(176): CBaseController->widget('ext.SimpleFadeS...', Array)
+#4 C:\xampp\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\project\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\xampp\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 C:\xampp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\project\index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/project/index.php
+HTTP_REFERER=http://localhost/project/index.php/site/login
+---
+2014/05/16 12:31:29 [error] [exception.CException] exception 'CException' with message 'Alias "ext.SimpleFadeSlideShow.SimpleFadeSlideShow" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\framework\web\CWidgetFactory.php(146): YiiBase::import('ext.SimpleFadeS...', true)
+#1 C:\xampp\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'ext.SimpleFadeS...', Array)
+#2 C:\xampp\framework\web\CBaseController.php(172): CBaseController->createWidget('ext.SimpleFadeS...', Array)
+#3 C:\xampp\htdocs\project\protected\views\site\index.php(176): CBaseController->widget('ext.SimpleFadeS...', Array)
+#4 C:\xampp\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#8 C:\xampp\htdocs\project\protected\controllers\SiteController.php(32): CController->render('index')
+#9 C:\xampp\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 C:\xampp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\xampp\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#15 C:\xampp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\project\index.php(15): CApplication->run()
+#17 {main}
+REQUEST_URI=/project/index.php
+HTTP_REFERER=http://localhost/project/index.php/site/login
+---
+2014/05/20 11:53:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "propertyLocations".' in C:\xampp\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\framework\web\CController.php(270): CController->missingAction('propertyLocatio...')
+#1 C:\xampp\framework\web\CWebApplication.php(282): CController->run('propertyLocatio...')
+#2 C:\xampp\framework\web\CWebApplication.php(141): CWebApplication->runController('site/propertyLo...')
+#3 C:\xampp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\project\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/project/index.php/site/propertyLocations
+HTTP_REFERER=http://localhost/project/index.php/site/news
+---
+2014/05/20 11:55:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "propertyLocations".' in C:\xampp\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\framework\web\CController.php(270): CController->missingAction('propertyLocatio...')
+#1 C:\xampp\framework\web\CWebApplication.php(282): CController->run('propertyLocatio...')
+#2 C:\xampp\framework\web\CWebApplication.php(141): CWebApplication->runController('site/propertyLo...')
+#3 C:\xampp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\project\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/project/index.php/site/propertyLocations
+HTTP_REFERER=http://localhost/project/index.php/site/news
+---
+2014/05/20 11:55:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "propertyLocations".' in C:\xampp\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\framework\web\CController.php(270): CController->missingAction('propertyLocatio...')
+#1 C:\xampp\framework\web\CWebApplication.php(282): CController->run('propertyLocatio...')
+#2 C:\xampp\framework\web\CWebApplication.php(141): CWebApplication->runController('site/propertyLo...')
+#3 C:\xampp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\project\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/project/index.php/site/propertyLocations
+HTTP_REFERER=http://localhost/project/index.php/site/news
+---
+2014/05/20 11:55:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "propertyLocations".' in C:\xampp\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\framework\web\CController.php(270): CController->missingAction('propertyLocatio...')
+#1 C:\xampp\framework\web\CWebApplication.php(282): CController->run('propertyLocatio...')
+#2 C:\xampp\framework\web\CWebApplication.php(141): CWebApplication->runController('site/propertyLo...')
+#3 C:\xampp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\project\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/project/index.php/site/propertyLocations
+HTTP_REFERER=http://localhost/project/index.php/site/news
+---
+2014/05/20 11:56:06 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "propertyLocations".' in C:\xampp\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\framework\web\CController.php(782): CController->renderPartial('propertyLocatio...', NULL, true)
+#1 C:\xampp\htdocs\project\protected\controllers\SiteController.php(52): CController->render('propertyLocatio...')
+#2 C:\xampp\framework\web\actions\CInlineAction.php(49): SiteController->actionPropertyLocations()
+#3 C:\xampp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\framework\web\CWebApplication.php(282): CController->run('propertyLocatio...')
+#7 C:\xampp\framework\web\CWebApplication.php(141): CWebApplication->runController('site/propertyLo...')
+#8 C:\xampp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\project\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/project/index.php/site/propertyLocations
+HTTP_REFERER=http://localhost/project/index.php/site/news
+---
+2014/05/22 10:15:51 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.clientScript" is not defined.' in C:\xampp\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\framework\web\auth\CWebUser.php(160): CComponent->__set('clientScript', Array)
+#1 C:\xampp\framework\YiiBase.php(220): CWebUser->__set('clientScript', Array)
+#2 C:\xampp\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#3 C:\xampp\framework\base\CModule.php(103): CModule->getComponent('user')
+#4 C:\xampp\htdocs\project\protected\views\layouts\main.php(40): CModule->__get('user')
+#5 C:\xampp\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#9 C:\xampp\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#10 C:\xampp\framework\web\CBaseController.php(206): COutputProcessor->run()
+#11 C:\xampp\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#12 C:\xampp\htdocs\project\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#13 C:\xampp\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#14 C:\xampp\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#15 C:\xampp\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#16 C:\xampp\htdocs\project\protected\controllers\SiteController.php(32): CController->render('index')
+#17 C:\xampp\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#18 C:\xampp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\xampp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 C:\xampp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\framework\web\CWebApplication.php(282): CController->run('')
+#22 C:\xampp\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#23 C:\xampp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\project\index.php(15): CApplication->run()
+#25 {main}
+REQUEST_URI=/project/index.php
+---
